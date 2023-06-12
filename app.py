@@ -1,20 +1,13 @@
 import cv2
 import numpy as np
 import matplotlib.pyplot as plt
-import tensorflow as tf
-import imutils
-from imutils import contours
-import pandas as pd
 from PIL import Image as im
-from scipy import ndimage
-from scipy.ndimage import interpolation as inter
 import streamlit as st
 from heapq import *
 from collections import defaultdict
 import zipfile
 import itertools 
 import io
-from PIL import ImageFile
 
 st.set_page_config(
     page_title='Word Segmentation'
