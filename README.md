@@ -1,7 +1,3 @@
-# HandwrittenLatinTranslator
-Takes an image of handwritten or typed Latin text and then parses and translates it. The system is far from perfect but this project has been an interesting process to think about.
-
-The training dataset, *emnist-byclass-train*, is too big to be uploaded but it can be found at this [link](https://www.kaggle.com/datasets/crawford/emnist)
-
-**IN PROGRESS**
+# Word Segmentation
+Takes an image of handwritten or typed text and segments it into individual words. The user can label each word and the images will be downloaded in a zip file with each label as the file name of each image. I'm using this to build a high quality dataset of segmented words for future CV/NLP projects. 
 
